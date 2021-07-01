@@ -1,0 +1,46 @@
+###
+#Requisição  GET para listar todos 
+
+GET http://localhost:8080/
+
+
+###
+#Requisição GET para listar detalhes de 1 registro 
+
+GET http://localhost:8080/detalhes/1
+
+
+###
+#Requisição POST para cadastrar um novo livro
+
+POST http://localhost:8080/adicionar
+Content-Type: application/json
+
+{
+    "id":"2",
+    "titulo": "A",
+    "autor": "B",
+    "tipo": "C",
+    "resumo": "D" 
+}
+
+
+###
+#Requisição POST para editar um livro
+POST http://localhost:8080/adicionar
+Content-Type: application/json
+
+{
+    "id": 1,
+    "titulo": "E",
+    "autor": "B",
+    "tipo": "C",
+    "resumo": "D"
+}
+
+###
+#Requisição GET para deletar um livro
+
+GET http://localhost:8080/deletar/1
+
+

@@ -1,0 +1,1 @@
+insert into livros (id, titulo, autor, tipo, resumo) values ('1', 'Tit', 'Aut', 'Tip', 'Res')
