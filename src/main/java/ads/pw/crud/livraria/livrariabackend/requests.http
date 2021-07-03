@@ -1,7 +1,7 @@
 ###
 #Requisição  GET para listar todos 
 
-GET http://localhost:8080/
+GET hhttps://java-ads-pw-crud-livraria-back.herokuapp.com/
 
 
 ###
@@ -13,7 +13,7 @@ GET http://localhost:8080/detalhes/1
 ###
 #Requisição POST para cadastrar um novo livro
 
-POST http://localhost:8080/adicionar
+POST https://java-ads-pw-crud-livraria-back.herokuapp.com/adicionar
 Content-Type: application/json
 
 {
