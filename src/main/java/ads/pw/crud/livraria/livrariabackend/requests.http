@@ -1,19 +1,23 @@
+@Host= https://ads-pw-crud-livraria-back-end.herokuapp.com
+
+#@Host = http://localhost:8080
+
 ###
 #Requisição  GET para listar todos 
 
-GET hhttps://java-ads-pw-crud-livraria-back.herokuapp.com/
+GET {{Host}}
 
 
 ###
 #Requisição GET para listar detalhes de 1 registro 
 
-GET http://localhost:8080/detalhes/1
+GET {{Host}}/detalhes/1
 
 
 ###
 #Requisição POST para cadastrar um novo livro
 
-POST https://java-ads-pw-crud-livraria-back.herokuapp.com/adicionar
+POST {{Host}}/adicionar
 Content-Type: application/json
 
 {
@@ -26,7 +30,7 @@ Content-Type: application/json
 
 ###
 #Requisição POST para editar um livro
-POST http://localhost:8080/adicionar
+POST {{Host}}/adicionar
 Content-Type: application/json
 
 {
@@ -40,6 +44,6 @@ Content-Type: application/json
 ###
 #Requisição GET para deletar um livro
 
-GET http://localhost:8080/deletar/1
+GET {{Host}}/deletar/1
 
 
